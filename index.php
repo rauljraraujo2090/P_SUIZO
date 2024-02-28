@@ -12,6 +12,7 @@
         <link rel="stylesheet preload" as=style href=css/libs.min.css>
         <link rel=stylesheet href=css/index.min.css>
         <link rel=stylesheet href=css/floatbutton.min.css>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
     <body>
         <div class="promobar d-flex align-items-center">
@@ -224,7 +225,7 @@
                             <div class=media>
                                 <picture>
                                     <source data-srcset=img/reviews/01.webp srcset=img/reviews/01.webp>
-                                    <img class=lazy data-src=img/reviews/01.jpg src=img/reviews/01.jpg alt=media>
+                                    <img class=lazy data-src=img/reviews/01.jpg src="img/reviews/01.jpg" alt=media>
                                 </picture>
                             </div>
                             <div class=main>
@@ -451,6 +452,21 @@
                 </div>
             </div>
         </main>
+<!--ALERT2-->
+
+<script >
+
+Swal.fire({
+  position: "top-end",
+  icon: "success",
+  title: "Your work has been saved",
+  showConfirmButton: false,
+  timer: 1500
+});
+</script>
+        
+
+<!--ALERT2-->
         <?php  include('include/footer.php') ?>
         <script src=https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js></script>
         <script src=js/common.min.js></script>
