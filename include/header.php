@@ -1,3 +1,35 @@
+
+<div class="promobar d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+                <ul class="promobar_socials d-flex align-items-center">
+                    <li class=promobar_socials-item>
+                        <a class=link href=# target=_blank rel="noopener noreferrer">
+                            <i class=icon-facebook></i>
+                        </a>
+                    </li>
+                    <li class=promobar_socials-item>
+                        <a class=link href=# target=_blank rel="noopener noreferrer">
+                            <i class=icon-twitter></i>
+                        </a>
+                    </li>
+                    <li class=promobar_socials-item>
+                        <a class=link href=# target=_blank rel="noopener noreferrer">
+                            <i class=icon-instagram></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="promobar_main d-flex align-items-center">
+                    <p class=promobar_main-text>
+                        Estudia con nosotros! <span class=hide>febrero 2024</span>
+                    </p>
+                    <a class="btn btn--yellow" href=# id=signUpTrigger>
+                        <span>Inscribirse</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
 <header class=header data-page=home>
             <div class="container d-flex flex-wrap justify-content-between align-items-center">
                 <div class="logo header_logo">
@@ -19,19 +51,22 @@
                 <nav class="header_nav collapse" id=headerMenu>
                     <ul class=header_nav-list>
                         <li class=header_nav-list_item>
-                            <a class=nav-item href=index.html data-page=home>Inicio</a>
+                            <a class=nav-item href=index.php data-page=home>Inicio</a>
                         </li>
                         <li class="header_nav-list_item dropdown">
                             <a class="nav-link nav-item dropdown-toggle d-inline-flex align-items-center" href=cours.html data-bs-toggle=collapse data-bs-target=#coursesMenu data-trigger=dropdown aria-expanded=false aria-controls=coursesMenu data-page=courses>
-                                Todos los Cursos <i class="icon-angle-down icon"></i>
+                                Programas<i class="icon-angle-down icon"></i>
                             </a>
                             <div class="dropdown-menu collapse" id=coursesMenu>
                                 <ul class=dropdown-list>
                                     <li class=list-item data-main=true>
-                                        <a class="dropdown-item nav-item" data-page=courses href=courshtml data-main=true>Todos los Cursos</a>
+                                        <a class="dropdown-item nav-item" data-page=courses href=courshtml data-main=true>Programas</a>
                                     </li>
                                     <li class=list-item>
-                                        <a class="dropdown-item nav-item" data-page=course href=crse.html>Descripcion del curso</a>
+                                        <a class="dropdown-item nav-item" data-page=course href=operador_de_computadoras.php>Operador de Computadoras </a>
+                                    </li>
+                                    <li class=list-item>
+                                        <a class="dropdown-item nav-item" data-page=course href=mantenimiento.php>Mantenimiento y Reparacion de Equipo de Computo</a>
                                     </li>
                                 </ul>
                             </div>
@@ -85,7 +120,7 @@
                             </div>
                         </li>
                         <li class=header_nav-list_item>
-                            <a class=nav-item href=contacts.html data-page=contacts>Contacto</a>
+                            <a class=nav-item href=conta.html data-page=contacts>Contacto</a>
                         </li>
                     </ul>
                     <ul class="promobar_socials d-flex align-items-center justify-content-center">

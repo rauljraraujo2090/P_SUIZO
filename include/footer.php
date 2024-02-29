@@ -13,7 +13,7 @@
                                 </span>
                             </a>
                         </div>
-                        <p class=footer_block-text>Curabitur non libero at lorem finibus lobortis. Ut auctor egestas pretium. Proin nunc ligula, venenatis tempor</p>
+                        <p class=footer_block-text>Bienvenido al CETPRO Perú Suizo, tu destino para adquirir habilidades técnicas y profesionales que impulsarán tu carrera hacia el éxito.</p>
                         <ul class="footer_block-socials d-flex align-items-center">
                             <li class=footer_block-socials_item>
                                 <a class=link href=https://www.facebook.com target=_blank rel="noopener noreferrer">
