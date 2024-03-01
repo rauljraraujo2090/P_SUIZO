@@ -12,6 +12,7 @@
         <link rel="stylesheet preload" as=style href=css/libs.min.css>
         <link rel=stylesheet href=css/faq.min.css>
         <link rel=stylesheet href=css/floatbutton.min.css>
+        
     </head>
     <body>
         
@@ -43,7 +44,7 @@
                         <p class=page_main-text>Los operadores de computadoras preparan y limpian todo el equipo que se utiliza en el proceso de datos, mantienen y vigilan las bitácoras e informes de la computadora , montan y desmontan discos y cintas durante los procesos y colocan las formas continuas para la impresión.</p>
                         <form class=page_main-form action=# method=post data-type=search>
                             <i class="icon-search-solid icon"></i>
-                            <input class="field required" name="buscador" id="buscador" type=text placeholder="Buscar Cursos..." p>
+                            <input class="field required" name="buscador" id="buscador" type=text placeholder="Buscar Cursos y Carreras Cortas" p>
                         </form>
                     </div>
                 </div>
